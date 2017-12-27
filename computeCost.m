@@ -13,8 +13,8 @@ J = 0;
 % Instructions: Compute the cost of a particular choice of theta
 %               You should set J to the cost.
 
-
-
+for 1 = 1:
+h = theta'*X;
 
 
 % =========================================================================
