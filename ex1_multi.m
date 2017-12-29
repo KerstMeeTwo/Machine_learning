@@ -54,7 +54,7 @@ fprintf('Normalizing Features ...\n');
 % Add intercept term to X
 X = [ones(m, 1) X];
 
-fprintf(' x = [%.0f %.0f %.0f], y = %.0f \n', [X(1:10,:) y(1:10,:)]');
+
 %% ================ Part 2: Gradient Descent ================
 
 % ====================== YOUR CODE HERE ======================
@@ -82,8 +82,8 @@ fprintf(' x = [%.0f %.0f %.0f], y = %.0f \n', [X(1:10,:) y(1:10,:)]');
 fprintf('Running gradient descent ...\n');
 
 % Choose some alpha value
-alpha = 0.001;
-num_iters = 20;
+alpha = 0.005;
+num_iters = 400;
 
 % Init Theta and Run Gradient Descent 
 theta = zeros(3, 1);
